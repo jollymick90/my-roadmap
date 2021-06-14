@@ -1,6 +1,9 @@
 <div>
   <div class="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-white dark:bg-gray-700 text-black dark:text-white">
     <app-header></app-header>
-    <app-sidebar></app-sidebar>
+    <app-sidebar>
+      <router-outlet #core></router-outlet>
+    </app-sidebar>
+
   </div>
 </div>
